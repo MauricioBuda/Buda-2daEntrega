@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Inicio</title>
 </head>
@@ -82,7 +83,7 @@
             </nav>
 
             <!-- TERMINA NAV MOBILE -->
-
+            
         </header>
         <!-- TERMINA MENU NAVEGACION -->
 
@@ -90,11 +91,11 @@
 
         <section class="index__section1">
             <div class="index__section1-img">
-                <div> <a class="index__imagen2" href="pages/productos.html"> <img src="img/velas-6png-removebg-preview.png" alt="imagen2"> </a> </div>
+                <div> <a class="animate__zoomIn wow animate__animated index__imagen2" href="pages/productos.html"> <img src="img/velas-6png-removebg-preview.png" alt="imagen2"> </a> </div>
                 <div>
-                    <h1 class="index__h1"> VELAS REINA</h1>
+                    <h1 class="wow animate__animated animate__backInDown index__h1"> VELAS REINA</h1>
                 </div>
-                <div> <a class="index__imagen2" href="pages/productos.html"> <img src="img/velas-6png-removebg-preview.png" alt="imagen2"> </a> </div>
+                <div> <a class="animate__zoomIn wow animate__animated index__imagen2" href="pages/productos.html"> <img  src="img/velas-6png-removebg-preview.png" alt="imagen2"> </a> </div>
             </div>
     </main>
 
@@ -116,7 +117,11 @@
                 src="img/logo-face.png" alt="logo-face"></p>
     </footer>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>
+    
 </body>
 
 </html>

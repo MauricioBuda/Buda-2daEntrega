@@ -107,7 +107,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 8rem;
-    font-size: 2rem;
+    font-size: 1.8vw;
 }
 
 
@@ -428,20 +428,20 @@ font-size: 2.2rem;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5vw;
     margin: 3rem 2rem 5rem 0rem;
     color: white;
-    -webkit-text-stroke: 0.1rem black;
+    -webkit-text-stroke: 0.08rem black;
 }
 
 .contacto__h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     margin-bottom: 3rem;
     color: white;
-    -webkit-text-stroke: 0.1rem black;
+    -webkit-text-stroke: 0.08rem black;
 }
 
 .contacto__form {
@@ -472,11 +472,12 @@ font-size: 2.2rem;
 .contacto__div--input div {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
 }
 
 .contacto__input--renglones {
     width: 35vw;
+    /* height: 7vh; */
 } 
 
 .contacto__div--label{
@@ -484,20 +485,20 @@ font-size: 2.2rem;
 }
 
 .contacto__div--label label {
-    font-size: 4rem;
+    font-size: 3vw;
 }
 
-.contacto__label--email {
+/* .contacto__label--email {
     display: flex;
-}
+} */
 
-.contacto__label--email label {
+/* .contacto__label--email label {
     margin-right: 3.5rem;
-}
+} */
 
 .contacto__div--input input::placeholder {
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 2vw;
+    padding-left: 1vw;
 }
 
 .contacto__recuadros {
@@ -507,7 +508,7 @@ font-size: 2.2rem;
 
 
 .contacto__textarea textarea::placeholder {
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     padding-top: 10rem;
 }
