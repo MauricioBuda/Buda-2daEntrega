@@ -14,8 +14,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Tips</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<title>Tips</title>
 </head>
 
 <body>
@@ -82,7 +83,7 @@
 <!-- TERMINA NAV MOBILE -->
 </header>
             <section class="tips__section">
-                <h1 class="tips__h1">Te dejamos unos videos que pueden serte utiles!</h1>
+                <h1 class="animate__zoomIn animate__animated wow tips__h1">Te dejamos unos videos que pueden serte utiles!</h1>
 
                 <h2 class="tips__h2">Como hacer que duren mas tus velas</h2>
 
@@ -106,11 +107,26 @@
     </main>
 
     <footer>
-        <p>No dudes en contactarnos haciendo click <a class="footer__enlace" href="contacto.html">aqui</a> <img
-                src="../img/logo-whatsapp.png" alt="logo-whatsapp"> <img src="../img/logo-insta2.jpg" alt="logo-insta">
-            <img src="../img/logo-face.png" alt="logo-face"></p>
+        <p>
+            No dudes en contactarnos haciendo click
+                <a class="footer__enlace" href="contacto.html">aqui</a> 
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="../img/logo-whatsapp.png"alt="logo-whatsapp">
+                </a> 
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/logo-insta2.jpg" alt="logo-insta">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/logo-face.png"alt="logo-face">
+                </a>
+        </p>
     </footer>
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+   new WOW().init();
+</script>
 
 </html>

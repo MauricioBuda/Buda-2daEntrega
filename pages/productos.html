@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <link rel="stylesheet" href="../css/styles.css">
 <title>Productos</title>
 </head>
@@ -86,37 +87,37 @@
             <h1 class="productos__h1">Productos</h1>
 
             <div class="productos__div">
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas1.jpg" alt="vela-1">
                     <h2>Aroma citrico</h2>
                     <a href="">COMPRAR</a>
                 </div>
 
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas2.jpg" alt="vela-2">
                     <h2>Aroma cookies</h2>
                     <a href="">COMPRAR</a>
                 </div>
 
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas3.jpg" alt="vela-3">
                     <h2>Aroma fresas</h2>
                     <a href="">COMPRAR</a>
                 </div>
 
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas4.jpg" alt="vela-4">
                     <h2>Aroma vainilla</h2>
                     <a href="">COMPRAR</a>
                 </div>
 
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas5.jpg" alt="vela-5">
                     <h2>Aroma cafe</h2>
                     <a href="">COMPRAR</a>
                 </div>
 
-                <div>
+                <div class="animate__slideInLeft animate__animated wow">
                     <img src="../img/velas-6png.png" alt="vela-6">
                     <h2>Aroma limon</h2>
                     <a href="">COMPRAR</a>
@@ -129,10 +130,25 @@
     </main>
 
     <footer>
-        <p>No dudes en contactarnos haciendo click <a class="footer__enlace" href="contacto.html">aqui</a> <img src="../img/logo-whatsapp.png"
-                alt="logo-whatsapp"> <img src="../img/logo-insta2.jpg" alt="logo-insta"> <img src="../img/logo-face.png"
-                alt="logo-face"></p>
+        <p>
+            No dudes en contactarnos haciendo click
+                <a class="footer__enlace" href="contacto.html">aqui</a> 
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="../img/logo-whatsapp.png"alt="logo-whatsapp">
+                </a> 
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/logo-insta2.jpg" alt="logo-insta">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/logo-face.png"alt="logo-face">
+                </a>
+        </p>
     </footer>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+   new WOW().init();
+</script>
 
 </html>

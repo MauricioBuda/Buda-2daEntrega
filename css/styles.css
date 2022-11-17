@@ -547,6 +547,10 @@ footer {
     align-items: center;
 }
 
+.footers p a img:hover {
+    width: 3vw;
+}
+
 footer p img {
     width: 2.5vw;
 }
