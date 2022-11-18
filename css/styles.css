@@ -252,6 +252,7 @@ body {
 .ubicacion__mapa div iframe{
     grid-area: mapa;
     width: 65vw;
+    margin: 2vw;
 }
 
 @media screen and (max-width:1024px)
